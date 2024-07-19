@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.home-heading {
+  color: #6d396b;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 42px;
+}
+.home-img {
+  width: 150px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 992px) {
+  .home-img {
+    width: 300px;
+  }
+  .home-heading{
+    width: 42px;
+  }
+}
